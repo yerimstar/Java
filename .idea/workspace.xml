@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic/boj_10926.java" afterDir="false" />
+    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="[230120] 입출력과 사칙연산">
+      <change afterPath="$PROJECT_DIR$/Basic/boj_2525.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/Users/yerimhuh/Desktop/BOJ/Java",
@@ -53,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674222608005</updated>
-      <workItem from="1674222609230" duration="625000" />
+      <workItem from="1674222609230" duration="2885000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -62,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674223023730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[230120] 입출력과 사칙연산">
+      <created>1674223355171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674223355171</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[230120] 입출력과 사칙연산">
+      <created>1674223581297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674223581297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Java folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Java folder" />
+    <MESSAGE value="[230120] 입출력과 사칙연산" />
+    <option name="LAST_COMMIT_MESSAGE" value="[230120] 입출력과 사칙연산" />
   </component>
 </project>
