@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic/boj_5597.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/boj_19532.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,10 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/Users/yerimhuh/Desktop/BOJ/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,9 +55,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_5597">
+  <component name="RunManager" selected="Application.boj_19532">
     <configuration name="boj_10807" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_10807" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj_19532" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_19532" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_19532" />
         <item itemvalue="Application.boj_5597" />
         <item itemvalue="Application.boj_10807" />
         <item itemvalue="Application.boj_25304" />
@@ -93,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674222608005</updated>
-      <workItem from="1674222609230" duration="8380000" />
+      <workItem from="1674222609230" duration="12027000" />
+      <workItem from="1674292357710" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -151,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674277898113</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[230121] 1차원 배열">
+      <created>1674281050492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674281050492</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
