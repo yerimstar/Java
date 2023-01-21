@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic/boj_25304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/boj_10807.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_25304">
+  <component name="RunManager" selected="Application.boj_10807">
+    <configuration name="boj_10807" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_10807" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="boj_2480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_2480" />
       <module name="Java" />
@@ -64,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_10807" />
         <item itemvalue="Application.boj_25304" />
         <item itemvalue="Application.boj_2480" />
       </list>
@@ -77,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674222608005</updated>
-      <workItem from="1674222609230" duration="4508000" />
+      <workItem from="1674222609230" duration="5811000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -121,16 +129,34 @@
       <option name="project" value="LOCAL" />
       <updated>1674275786154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[230121] 조건문">
+      <created>1674276608440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674276608440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Java folder" />
     <MESSAGE value="[230120] 입출력과 사칙연산" />
-    <MESSAGE value="[230121] 조건문" />
-    <option name="LAST_COMMIT_MESSAGE" value="[230121] 조건문" />
+    <MESSAGE value="[230121] 반복문" />
+    <option name="LAST_COMMIT_MESSAGE" value="[230121] 반복문" />
   </component>
 </project>
