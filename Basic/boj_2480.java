@@ -11,6 +11,7 @@ public class boj_2480 {
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
         int C = Integer.parseInt(st.nextToken());
+
         if (A == B) {
             System.out.print(B == C ? 10000 + A * 1000 : 1000 + A * 100);
         } else if (B == C || A == C) {
