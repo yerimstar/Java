@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="[230120] 입출력과 사칙연산">
-      <change afterPath="$PROJECT_DIR$/Basic/boj_2525.java" afterDir="false" />
+    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="[230121] 조건문">
+      <change afterPath="$PROJECT_DIR$/Basic/boj_2480.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="boj_2480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_2480" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.boj_2480" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674222608005</updated>
-      <workItem from="1674222609230" duration="2885000" />
+      <workItem from="1674222609230" duration="3689000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -78,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674223581297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[230121] 조건문">
+      <created>1674275016632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674275016632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Java folder" />
     <MESSAGE value="[230120] 입출력과 사칙연산" />
-    <option name="LAST_COMMIT_MESSAGE" value="[230120] 입출력과 사칙연산" />
+    <MESSAGE value="[230121] 조건문" />
+    <option name="LAST_COMMIT_MESSAGE" value="[230121] 조건문" />
   </component>
 </project>
