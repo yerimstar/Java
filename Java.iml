@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Backtracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BruteForce" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
