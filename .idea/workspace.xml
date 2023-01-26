@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Math/boj_1546.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/boj_1157.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_1546">
+  <component name="RunManager" selected="Application.boj_1157">
     <configuration name="boj_10992" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_10992" />
       <module name="Java" />
@@ -67,6 +68,13 @@
     </configuration>
     <configuration name="boj_1110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_1110" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj_1157" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_1157" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,20 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2444" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj_2444" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1157" />
         <item itemvalue="Application.boj_1546" />
         <item itemvalue="Application.boj_1110" />
         <item itemvalue="Application.boj_2443" />
         <item itemvalue="Application.boj_10992" />
-        <item itemvalue="Application.boj_2444" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +117,7 @@
       <workItem from="1674453467814" duration="503000" />
       <workItem from="1674477308142" duration="1322000" />
       <workItem from="1674546654195" duration="4209000" />
-      <workItem from="1674737838266" duration="3073000" />
+      <workItem from="1674737838266" duration="5006000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674739542374</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[230126] B1 - 평균">
+      <created>1674741620046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674741620046</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +265,7 @@
     <MESSAGE value="[230122] B3 - 완료" />
     <MESSAGE value="[230122] B3 - 수정" />
     <MESSAGE value="[230126] B1 - 더하기 사이클" />
-    <option name="LAST_COMMIT_MESSAGE" value="[230126] B1 - 더하기 사이클" />
+    <MESSAGE value="[230126] B1 - 평균" />
+    <option name="LAST_COMMIT_MESSAGE" value="[230126] B1 - 평균" />
   </component>
 </project>
