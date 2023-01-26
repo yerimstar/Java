@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic/boj_10992.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/boj_1110.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_10992">
+  <component name="RunManager" selected="Application.boj_1110">
     <configuration name="boj_10992" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_10992" />
       <module name="Java" />
@@ -65,15 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1476" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj_1476" />
+    <configuration name="boj_1110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_1110" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_15649" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj_15649" />
+    <configuration name="boj_1476" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_1476" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1110" />
+        <item itemvalue="Application.boj_2443" />
         <item itemvalue="Application.boj_10992" />
         <item itemvalue="Application.boj_2444" />
-        <item itemvalue="Application.boj_2443" />
         <item itemvalue="Application.boj_1476" />
-        <item itemvalue="Application.boj_15649" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +116,7 @@
       <workItem from="1674453467814" duration="503000" />
       <workItem from="1674477308142" duration="1322000" />
       <workItem from="1674546654195" duration="4209000" />
+      <workItem from="1674737838266" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
