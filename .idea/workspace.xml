@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="[230126] S2 - 잃어버린 괄호">
-      <change afterPath="$PROJECT_DIR$/Greedy/boj_1541.java" afterDir="false" />
+    <list default="true" id="90173d78-0c45-4e8c-b3fe-882bc529b8e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Greedy/boj_16206.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,14 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj_1541_2">
-    <configuration name="boj_11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj_11047" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.boj_16206">
     <configuration name="boj_11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj_11399" />
       <module name="Java" />
@@ -94,13 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_16206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj_16206" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_16206" />
         <item itemvalue="Application.boj_1541_2" />
         <item itemvalue="Application.boj_1541" />
         <item itemvalue="Application.boj_13305" />
         <item itemvalue="Application.boj_11399" />
-        <item itemvalue="Application.boj_11047" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +121,7 @@
       <workItem from="1674477308142" duration="1322000" />
       <workItem from="1674546654195" duration="4209000" />
       <workItem from="1674737838266" duration="5145000" />
-      <workItem from="1674961805216" duration="5642000" />
+      <workItem from="1674961805216" duration="11570000" />
     </task>
     <task id="LOCAL-00001" summary="add Java folder">
       <created>1674223023730</created>
@@ -281,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674965965011</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[230126] S2 - 잃어버린 괄호">
+      <created>1674970540150</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674970540150</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +325,7 @@
     <MESSAGE value="[230126] S4 - 동전 0" />
     <MESSAGE value="[230126] S4 - ATM" />
     <MESSAGE value="[230126] S3 - 주유소" />
-    <option name="LAST_COMMIT_MESSAGE" value="[230126] S3 - 주유소" />
+    <MESSAGE value="[230126] S2 - 잃어버린 괄호" />
+    <option name="LAST_COMMIT_MESSAGE" value="[230126] S2 - 잃어버린 괄호" />
   </component>
 </project>
