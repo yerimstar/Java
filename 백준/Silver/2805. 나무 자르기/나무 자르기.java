@@ -17,15 +17,16 @@ public class Main {
         m = Integer.parseInt(st.nextToken());
         arr = new int[n];
         st = new StringTokenizer(bf.readLine()," ");
+
+        int lo = 0;
+        int hi = 0;
+        int mid;
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
+            if(arr[i] > hi) // 최댓값 구하기
+                hi = arr[i];
         }
-        // 정렬
-        Arrays.sort(arr);
         // 이분탐색 - upperBound
-        int lo = 0;
-        int hi = arr[n-1];
-        int mid;
         while(lo < hi){
             mid = (lo+hi)/2;
             if(upperBound(mid) < m){
