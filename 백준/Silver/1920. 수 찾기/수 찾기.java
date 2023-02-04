@@ -10,6 +10,7 @@ public class Main {
     static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static StringBuilder sb = new StringBuilder();
+
     public static void main(String[] args) throws IOException {
         n = Integer.parseInt(bf.readLine());
         a = new int[n];
@@ -17,17 +18,18 @@ public class Main {
         for (int i = 0; i < n; i++) {
             a[i] = Integer.parseInt(st.nextToken());
         }
+        
         Arrays.sort(a); // 정렬
 
         m = Integer.parseInt(bf.readLine());
         st = new StringTokenizer(bf.readLine()," ");
         for (int i = 0; i < m; i++) {
-            sb.append(binarySearch(a,Integer.parseInt(st.nextToken())) + "\n");
+            sb.append(binarySearch(Integer.parseInt(st.nextToken())) + "\n");
         }
         System.out.println(sb.toString());
 
     }
-    public static int binarySearch(int[] a,int key){
+    public static int binarySearch(int key){
         int result = 0;
         if(Arrays.binarySearch(a,key) >= 0) {
             result = 1;
