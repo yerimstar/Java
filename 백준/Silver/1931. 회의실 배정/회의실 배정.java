@@ -4,35 +4,27 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// 회의실 배정
 public class Main {
     public static void main(String[] args) throws IOException {
+//        StringBuilder sb = new StringBuilder();
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        int start, end;
         int n = Integer.parseInt(bf.readLine());
+        int[][] meeting = new int[n][2];
+        int result = 0;
         int cnt = 0;
-        int endTmp = 0;
-        int[][] meetings = new int[n][2];
-        for (int i = 0; i < n; i++) {
+        StringTokenizer st;
+        for(int i = 0; i < n; i++){
             st = new StringTokenizer(bf.readLine());
-            start = Integer.parseInt(st.nextToken());
-            end = Integer.parseInt(st.nextToken());
-            meetings[i][0] = start;
-            meetings[i][1] = end;
+            meeting[i][0] = Integer.parseInt(st.nextToken());
+            meeting[i][1] = Integer.parseInt(st.nextToken());
         }
-
-        Arrays.sort(meetings, ((o1, o2) -> {
-            return o1[1] != o2[1] ? o1[1] - o2[1] : o1[0] - o2[0];
-        }));
-
-        for (int[] meeting : meetings) {
-            if (meeting[0] >= endTmp) {
+        Arrays.sort(meeting , ((o1, o2) -> {return o1[1] != o2[1] ? o1[1] - o2[1] : o1[0]-o2[0];}));
+        for(int[] m : meeting){
+            if(m[0] >= result){
                 cnt++;
-                endTmp = meeting[1];
+                result = m[1];
             }
         }
         System.out.println(cnt);
-
     }
 }
