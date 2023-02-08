@@ -41,8 +41,7 @@ class Solution
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		StringBuilder sb = new StringBuilder();
-		for(int test_case = 1; test_case <= T; test_case++)
-		{
+		for(int test_case = 1; test_case <= T; test_case++){
 			sb.append("#").append(test_case).append("\n");
 			int n = Integer.parseInt(br.readLine());
 			int[][] arr =  new int[n][n];
@@ -61,7 +60,7 @@ class Solution
 				arr[n/2][n/2] = cnt++;
 			for(int i= 0; i < n; i++) {
 				for(int j = 0; j < n; j++)
-					sb.append(arr[i][j] + " ");
+					sb.append(arr[i][j]).append(" ");
 				sb.append("\n");
 			}
 		}
