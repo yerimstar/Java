@@ -90,9 +90,6 @@ public class Main {
                 tmp[i][j] = arr[n-j-1][i];
             }
         }
-        for(int i = 0; i < arrSize; i++){
-            Arrays.fill(arr[i],0);
-        }
         for(int i = 0; i < m; i++){
             for(int j= 0; j < n; j++){
                 arr[i][j] = tmp[i][j];
@@ -106,9 +103,6 @@ public class Main {
             for(int j = 0; j < n; j++){
                 tmp[i][j] = arr[j][m-i-1];
             }
-        }
-        for(int i = 0; i < arrSize; i++){
-            Arrays.fill(arr[i],0);
         }
         for(int i = 0; i < m; i++){
             for(int j= 0; j < n; j++){
