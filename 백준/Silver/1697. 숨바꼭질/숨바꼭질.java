@@ -5,25 +5,16 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class Node {
-	int x, cnt;
-
-	public Node(int x, int cnt) {
-		super();
-		this.x = x;
-		this.cnt = cnt;
-	}
-}
-
 public class Main {
 	static int n, k;
-	static boolean[] visited;
+	static int[] visited;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		n = Integer.parseInt(st.nextToken());
 		k = Integer.parseInt(st.nextToken());
+		visited = new int[100001];
 		if (n >= k) {
 			System.out.println(n - k);
 		} else {
@@ -32,33 +23,31 @@ public class Main {
 	}
 
 	private static void moveLocation(int n) {
-		Queue<Node> q = new ArrayDeque<>();
-		visited = new boolean[100001];
-
-		q.offer(new Node(n, 0));
-
-		Node cur = null;
+		Queue<Integer> q = new ArrayDeque<>();
+	
+		q.offer(n);
+		visited[n] = 0;
+		
+		int x = 0;
 		while (!q.isEmpty()) {
-
-			cur = q.poll();
-			int x = cur.x;
-			int cnt = cur.cnt;
+			x = q.poll();
 
 			if (x == k) {
-				System.out.println(cnt);
+				System.out.println(visited[x]);
 				return;
 			}
-
-			visited[x] = true;
-
-			if (0 <= x - 1 && !visited[x - 1]) {
-				q.offer(new Node(x - 1, cnt + 1));
+			
+			if (0 <= x - 1 && visited[x - 1] == 0) {
+				q.offer(x-1);
+				visited[x-1] = visited[x] + 1;
 			}
-			if (x + 1 < 100001 && !visited[x + 1]) {
-				q.offer(new Node(x + 1, cnt + 1));
+			if (x + 1 < 100001 &&  visited[x + 1] == 0) {
+				q.offer(x+1);
+				visited[x+1] = visited[x] + 1;
 			}
-			if (2 * x < 100001 && !visited[2 * x]) {
-				q.offer(new Node(2 * x, cnt + 1));
+			if (2 * x < 100001 && visited[2 * x] == 0) {
+				q.offer(2*x);
+				visited[2*x] = visited[x] + 1;
 			}
 		}
 
