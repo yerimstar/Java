@@ -4,30 +4,39 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int n = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
-		boolean[] isSelected = new boolean[n];
-		int[] output = new int[m];
-		permutation(n,m,0,isSelected,output);
-	}
-	public static void permutation(int n, int m, int depth, boolean[] isSelected, int[] output) {
-		if(depth == m) {
-			for(int i = 0; i < m; i++) {
-				System.out.print(output[i] + " ");
-			}
-			System.out.println();
-			return;
-		}	
-		for(int i = 0; i< n; i++) {
-			if(!isSelected[i]) {
-				isSelected[i] = true;
-				output[depth] = i+1;
-				permutation(n, m, depth+1, isSelected, output);
-				isSelected[i] = false;
-			}
-		}
-	}
+    static StringBuilder sb;
+    static int n,m;
+    static int[] result;
+    static boolean[] visited;
+    public static void main(String[] args) throws IOException {
+        sb = new StringBuilder();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+        visited = new boolean[n+1];
+        result = new int[m];
+
+        // 순열 (중복 x)
+        perm(0);
+        System.out.println(sb);
+    }
+    private static void perm(int cnt){
+        if(cnt == m){
+            for(int num : result){
+                sb.append(num).append(" ");
+            }
+            sb.append("\n");
+            return;
+        }
+        for(int i = 1; i <= n; i++){
+            if(visited[i])
+                continue;
+            visited[i] = true;
+            result[cnt] = i;
+            perm(cnt+1);
+            visited[i] = false;
+        }
+    }
 }
