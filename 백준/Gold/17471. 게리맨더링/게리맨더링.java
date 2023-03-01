@@ -30,10 +30,8 @@ public class Main {
         }
 
         int minNum = Integer.MAX_VALUE;
-        for (int i = 1; i < (1 << n) - 1; i++) {
-            int check1 = 0;
-            int check2 = 0;
-            int sum1 = 0, sum2 = 0;
+        for (int i = 1; i < (1 << n)/2; i++) {
+            int check1 = 0, check2 = 0, sum1 = 0, sum2 = 0;
             for (int j = 0; j < n; j++) {
                 if ((i & (1 << j)) != 0) {
                     check1 |= (1 << j);
@@ -41,15 +39,25 @@ public class Main {
                     check2 |= (1 << j);
                 }
             }
+
             visited = new boolean[n];
             for (int j = 0; j < n; j++) {
                 if (!visited[j] && ((check1 & (1 << j)) != 0)) {
+                    if (Integer.bitCount(check1) == 1) {
+                        sum1 = people[j];
+                        break;
+                    }
                     sum1 += bfs(j, check1);
                     break;
                 }
             }
+
             for (int j = 0; j < n; j++) {
                 if (!visited[j] && ((check2 & (1 << j)) != 0)) {
+                    if (Integer.bitCount(check2) == 1) {
+                        sum2 = people[j];
+                        break;
+                    }
                     sum2 += bfs(j, check2);
                     break;
                 }
@@ -70,14 +78,13 @@ public class Main {
 
     private static int bfs(int start, int checkNum) {
         Queue<Integer> q = new ArrayDeque<>();
+        int checkCnt = Integer.bitCount(checkNum);
+
         q.offer(start);
         visited[start] = true;
-        int checkCnt = Integer.bitCount(checkNum);
-        int cnt = 1;
         int sum = people[start];
-        if (cnt == checkCnt) {
-            return sum;
-        }
+        int cnt = 1;
+
         while (!q.isEmpty()) {
             int cur = q.poll();
             for (int i = 0; i < n; i++) {
