@@ -67,7 +67,8 @@ public class Main {
 				}
 			}
 			// 상어 이동
-			moveShark();
+			if(i != C-1)
+				moveShark();
 		}
 		System.out.println(sum);
 	}
