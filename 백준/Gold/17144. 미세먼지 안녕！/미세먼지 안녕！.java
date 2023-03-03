@@ -24,7 +24,6 @@ public class Main {
 		
 	}
 	static Queue<Dust> q;
-	static Queue<Dust> tmp;
 	static int r,c,t;
 	static int[][] map;
 	static int[][] air;
@@ -64,7 +63,6 @@ public class Main {
 			}
 		}
 		
-		
 		int sum = 0;
 		for(int i = 0;i < r; i++) {
 			for(int j = 0;j < c; j++) {
@@ -77,7 +75,6 @@ public class Main {
 
 	private static void bfs() {
 		int[][] mv = {{0,1},{0,-1},{1,0},{-1,0}};
-	    tmp = new ArrayDeque<>();
 		Dust cur = null;
 		while(!q.isEmpty()) {
 			cur = q.poll();
@@ -90,16 +87,13 @@ public class Main {
 					continue;
 				if(map[dx][dy] != -1) {
 					cnt++;
-					tmp.offer(new Dust(dx,dy, cur.val/5));
+					map[dx][dy] += cur.val/5;
 				}
 			}
-			tmp.offer(new Dust(cur.x,cur.y, -(cur.val/5)*cnt));
-		}
-		while(!tmp.isEmpty()) {
-			cur = tmp.poll();	
-			map[cur.x][cur.y] += cur.val; 
+			map[cur.x][cur.y] -= (cur.val/5)*cnt;
 		}
 	}
+	
 	private static void move() {
 		// 반시계방향
 		// 좌
